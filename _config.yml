@@ -1,8 +1,8 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Francesco Santagati
+email: francesco@santagati.it
+url: https://francescosantagati.github.io
+description: "Portfolio and projects"
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
@@ -15,31 +15,35 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Francesco Santagati
   location: Location
   social: Around the Web
-  credits: Credits
+#  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+#  - title: twitter
+#    url: http://twitter.com/jekyllrb
+#  - title: facebook
+#    url:
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: https://bitbucket.org/scunsaiocu
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/FrancescoSantagati
+  - title: linkedin
+    url: http://it.linkedin.com/pub/francesco-santagati/68/1b0/947
+  - title: android
+    url: https://play.google.com/store/apps/developer?id=Francesco+Santagati
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Turin, Italy
+#  - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+#credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
