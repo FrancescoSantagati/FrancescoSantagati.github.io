@@ -1,11 +1,12 @@
 # Site wide configuration
 
-title: Francesco Santagati Portfolio
-description: A developer blog
-logo: skinny-bones-demo.gif # 120x120 px default image used for Twitter summary card
-teaser: bio-photo.jpg # 400x250 px default teaser image used in image archive grid
+title: Francesco Santagati
+description: Portfolio
+logo: lechuck.jpg # 120x120 px default image used for Twitter summary card
+teaser: lechuck.jpg # 400x250 px default teaser image used in image archive grid
 locale: it
-url: http://francescosantagati.github.io/
+#url: http://francescosantagati.github.io
+url: http://192.168.33.10:4000
 
 # Jekyll configuration
 
@@ -29,7 +30,7 @@ owner:
     ad-client:
     ad-slot:
   bio:
-  avatar: bio-photo.jpg # 160x160 px image for author byline
+  avatar: lechuck.jpg # 160x160 px image for author byline
   disqus-shortname:
 
 
