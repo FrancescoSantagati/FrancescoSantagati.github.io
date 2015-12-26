@@ -1,50 +1,36 @@
-# Site settings
-title: Francesco Santagati
-email: francesco@santagati.it
-url: https://francescosantagati.github.io
-description: "Portfolio and projects"
+# Site wide configuration
 
-# Contact form: comment the line below if you want to stick with the default PHP contact form
-contact: static
+title: Francesco Santagati Portfolio
+description: A developer blog
+logo: skinny-bones-demo.gif # 120x120 px default image used for Twitter summary card
+teaser: bio-photo.jpg # 400x250 px default teaser image used in image archive grid
+locale: it
+url: http://francescosantagati.github.io/
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: ffa500 #80B3FF
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+# Jekyll configuration
 
-# Footer settings
-footer:
-  copyright: Francesco Santagati
-  location: Location
-  social: Around the Web
-#  credits: Credits
+sass:
+    sass_dir: _sass
+    style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: pygments
+gems:
+  - jekyll-sitemap
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-#  - title: twitter
-#    url: http://twitter.com/jekyllrb
-#  - title: facebook
-#    url:
-#  - title: stack-overflow
-#    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: https://bitbucket.org/scunsaiocu
-  - title: github
-    url: https://github.com/FrancescoSantagati
-  - title: linkedin
-    url: http://it.linkedin.com/pub/francesco-santagati/68/1b0/947
-  - title: android
-    url: https://play.google.com/store/apps/developer?id=Francesco+Santagati
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: Turin, Italy
-#  - line: Beverly Hills, CA 90210
+# Site owner
+owner:
+  name: Francesco Santagati
+  email: francesco@santagati.it
+  twitter:
+  google:
+    ad-client:
+    ad-slot:
+  bio:
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+  disqus-shortname:
 
-# Credits content
-#credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
