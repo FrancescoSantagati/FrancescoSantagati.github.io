@@ -6,7 +6,7 @@ logo: lechuck.jpg # 120x120 px default image used for Twitter summary card
 teaser: lechuck.jpg # 400x250 px default teaser image used in image archive grid
 locale: it
 #url: http://francescosantagati.github.io
-url: http://192.168.33.10:4000
+url: http://127.0.0.1:4000
 
 # Jekyll configuration
 
