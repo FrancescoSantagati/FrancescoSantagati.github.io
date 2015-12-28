@@ -1,9 +1,13 @@
 # Site navigation links
 
-- title: Android
-  url: /portfolio/
-  excerpt: "Things I’ve designed, illustrated, developed, coded, and whatever."
-  image: lechuck.jpg
+- title: About
+  url: /about/
 
-- title: Unity
-  url: http://mademistakes.com
+- title: Portfolio
+  url: /portfolio/
+
+- title: Articles
+  url: /articles/
+
+- title: Readings
+  url: /readings/
