@@ -1,16 +1,14 @@
 # Site wide configuration
-
 title: Francesco Santagati
 locale: en_US
 url: http://FrancescoSantagati.github.io
-url: http://127.0.0.1:4000
+#url: http://127.0.0.1:4000
 
 
 # Jekyll configuration
-
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: rouge
+highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
