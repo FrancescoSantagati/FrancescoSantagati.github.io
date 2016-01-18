@@ -20,7 +20,7 @@ I worked for more than two years on a multi tier architecture about data exchang
 ##Employment
 ------
 
-**Android Developer** at Synesthesia s.r.l.
+**Android Developer** at Synesthesia s.r.l.  
 *Jan 2016 to present*
 
 - Native Android applications.
