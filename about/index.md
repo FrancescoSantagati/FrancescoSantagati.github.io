@@ -20,6 +20,11 @@ I worked for more than two years on a multi tier architecture about data exchang
 ##Employment
 ------
 
+**Android Developer** at Synesthesia s.r.l.
+*Jan 2016 to present*
+
+- Native Android applications.
+
 **Android and PHP Developer** at Ennova s.r.l.  
 *Jun 2013 to Dec 2015*
 
