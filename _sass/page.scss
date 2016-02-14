@@ -287,6 +287,9 @@ $button-size: 1.5rem;
 .image-wrap {
 	position: relative;
 	margin-bottom: 2em;
+	height: 40px;
+	overflow: hidden;
+
 	@include clearfix;
 	&:after {
 		content: " ";
