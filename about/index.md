@@ -5,7 +5,7 @@ tags: [about, vitae, curriculum, bio]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
 image:
-  feature: sample-image-small.jpg
+  feature: blur-wallpaper.jpg
 ---
 
 I worked for more than two years on a multi tier architecture about data exchange (PHP - Yii) and multiplatform mobile apps (Javascript - Phonegap Cordova).
