@@ -1,5 +1,6 @@
 ---
-layout: post-index
-title: All Posts
-excerpt: "A List of Posts"
+layout: category-index
+title: Projects
+category: project
+excerpt: "Projects"
 ---
