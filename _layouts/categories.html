@@ -35,7 +35,7 @@
   <div id="index">
     <h1>{{ page.title }}</h1>
     {% for post in site.posts %}
-      {% if page.category == post.category %}
+      {% if post.categories contains page.category %}
         {% unless post.next %}
             <h3>{{ post.date | date: '%Y' }}</h3>
         {% else %}

@@ -2,7 +2,7 @@
 layout: post
 title: Prova Categoria
 modified:
-category: blog
+categories: blog
 excerpt:
 tags: [android]
 image:

@@ -1,7 +1,7 @@
 ---
-layout: category-index
+layout: categories
 title: Projects
-category: project
+category: projects
 excerpt: "Projects"
 tags: [projects]
 image:

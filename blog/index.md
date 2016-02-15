@@ -1,5 +1,5 @@
 ---
-layout: category-index
+layout: categories
 title: Blog
 category: blog
 excerpt: "Blog"
