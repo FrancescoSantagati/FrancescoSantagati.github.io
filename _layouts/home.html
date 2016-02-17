@@ -16,7 +16,7 @@
 {% if page.image.feature %}
   <div class="image-wrap">
   <img src=
-    {% if page.image.feature contains 'http' %}
+   {% if page.image.feature contains 'http' %}
       "{{ page.image.feature }}"
     {% else %}
       "{{ site.url }}/images/{{ page.image.feature }}"
@@ -34,8 +34,8 @@
   </div>
   <div id="index">
     <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
-    {% for post in site.posts limit:5 %}
-      {% if post.category  %}
+    {% for post in site.posts limit:50 %}
+      {% if post.categories contains 'blog' or post.categories contains 'projects' %}
         <article>
           {% if post.link %}
             <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h2>
