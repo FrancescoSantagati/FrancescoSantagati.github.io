@@ -8,7 +8,7 @@ image:
   feature: blur-wallpaper.jpg
 ---
 
-I worked for more than two years on a multi tier architecture about data exchange (PHP - Yii) and multiplatform mobile apps (Javascript - Phonegap Cordova).
+I'm an Android Developer at Synesthesia srl. In the past, I worked for more than two years on a multi tier architecture about data exchange (PHP - Yii) and multiplatform mobile apps (Javascript - Phonegap Cordova).
 
 ## Skills
 ------
